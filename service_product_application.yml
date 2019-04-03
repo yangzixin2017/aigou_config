@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 spring:
   application:
-    name: PRODUCT-SERVICE
+    name:  product-service
   profiles: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
